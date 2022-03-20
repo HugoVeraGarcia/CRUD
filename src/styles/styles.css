@@ -9,16 +9,19 @@ body{
     color: white;
 }
 .App{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-items: center;
-    grid-template-columns: 1fr;
-    align-items:flex-start;
-    
+    align-items:center;
 }
 
+.main-container-list{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 .card{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items:center;
     background-color: #7A8C54;
     border: 6px solid #BCD991;
@@ -116,11 +119,17 @@ h2{
     margin: 15px 5px
 }
 
-@media screen and (min-width: 900px) {
-    .App{
+@media screen and (min-width: 1000px) {
+    .main-container-list{
+        display: grid;
         grid-template-columns: 1fr 1fr;
-        
-    }
-    
-    
+    }   
 }
+
+@media screen and (min-width: 1300px) {
+    .main-container-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }   
+}
+

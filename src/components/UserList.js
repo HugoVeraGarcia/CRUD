@@ -3,7 +3,7 @@ import React from 'react';
 
 const UserList = ({ users, deleteUser, getSelected }) => {
     return (
-        <ul>
+        <ul className='main-container-list'>
             {   users.map((user) => (
                 <section className='card' key={user.id}>
                     <div>
