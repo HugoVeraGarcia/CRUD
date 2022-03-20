@@ -29,7 +29,7 @@ body{
     margin: 1rem;
     padding: 1rem;
     border-radius: 20px;
-    width: 420px;
+    width: 360px;
 }
 
 .font_red{
@@ -64,8 +64,8 @@ body{
 
 .form{
     background-color: white;
-    width: 420px;
-    margin: 1rem 0 0 1rem;
+    width: 360px;
+    margin: 1rem auto;
     padding: 1rem;
     border: 5px solid rgb(207, 207, 207);
     border-radius: 10px;
@@ -86,23 +86,23 @@ h2{
     margin: 5px 15px;
 }
 .input_name{
-    width: 150px;
+    width: 118px;
     background-color: white;
     margin: 5px;
     height: 25px;
 }
 .input_email{
-    width:310px;
+    width:250px;
     height: 25px;
     background-color: white;
 }
 .inputPassword{
-    width:310px;
+    width:250px;
     height: 25px;
     background-color: white;
 }
 .inputDate{
-    width:310px;
+    width:250px;
     height: 25px;
     background-color: white;
 }
@@ -125,8 +125,27 @@ h2{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    
-    
+
+    .form{
+        width: 420px;
+    }
+
+    .input_name{
+        width: 150px;
+    }
+    .input_email{
+        width:310px;
+    }
+    .inputPassword{
+        width:310px;
+    }
+    .inputDate{
+        width:310px;
+    }
+    .card{
+        width: 420px;
+    }
+
 }
 
 @media screen and (min-width: 1300px) {

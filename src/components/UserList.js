@@ -13,16 +13,13 @@ const UserList = ({ users, deleteUser, getSelected }) => {
                             <p>{user.last_name}</p>
                         </div>
                         <div className='data-container'>
-                            <i className="fa-solid fa-cake-candles margin_10 font_gray"></i>
-                            <p>{user.birthday}</p>
-                        </div>
-                        <div className='data-container'>
                             <i className="fa-solid fa-envelope margin_10 font_gray"></i>
                             <p>{user.email}</p>
                         </div>
+
                         <div className='data-container'>
-                            <i className="fa-solid fa-key margin_10 font_gray"></i>
-                            <p>{user.password}</p>
+                            <i className="fa-solid fa-cake-candles margin_10 font_gray"></i>
+                            <p>{user.birthday}</p>
                         </div>
                     </div>
                     <div className='icons'>
